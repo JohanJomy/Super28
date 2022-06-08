@@ -1,0 +1,17 @@
+  UI
+------
+
+-> text button resizing problem (height) (works in table page change in options page)
+
+-> button animation for guesture button
+
+-> help page extra padding for smaller devices
+
+-> recognizing phone as a tablet 
+
+---------
+
+-> adjust speed
+
+  Backend
+----------

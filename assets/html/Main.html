@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> 28SIX Help</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+    <style>
+        @font-face {
+            font-family: 'fontello';
+            src: url('./font/fontello.eot?84299998');
+            src: url('./font/fontello.eot?84299998#iefix') format('embedded-opentype'),
+            url('./font/fontello.woff?84299998') format('woff'),
+            url('./font/fontello.ttf?84299998') format('truetype'),
+            url('./font/fontello.svg?84299998#fontello') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    
+    .demo-icon
+    {
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+        
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        margin-right: .2em;
+        text-align: center;
+        /* opacity: .8; */
+        
+        /* For safety - reset parent styles, that can break glyph codes*/
+        font-variant: normal;
+        text-transform: none;
+        
+        /* fix buttons height, for twitter bootstrap */
+        line-height: 1em;
+        
+        /* Animation center compensation - margins should be symmetric */
+        /* remove if not needed */
+        margin-left: .2em;
+        
+        /* You can be more comfortable with increased icons size */
+        /* font-size: 120%; */
+        
+        /* Font smoothing. That was taken from TWBS */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        
+        /* Uncomment for 3D effect */
+        /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+    
+    </style>
+    
+</head>
+ <body>
+
+
+
+<div class="container" >
+
+<h1>Help</h1>
+
+
+<h2> Introduction</h2>
+
+This app plays the Six Player variant of the popular card game Twenty-Eight. You play one hand and your iOS device will play for other five hands. This is a popular card game in KERALA, India and belongs to the Jass group of point-trick card games. Similar games include the game 29 (popular in Bangladesh and parts of North India) and the game 304 (popular in Sri Lanka and parts of South India).
+<p>
+
+<p>  <a href=mailto:feedback@28.net?subject=feedback%20on%2028 > Contact author</a> by email to <a href=mailto:info@28six.net?subject="Feedback" > info@28.net </a> with suggestions and feedback.
+<p>
+<p>
+Here after Twenty-Eight refers to this App and not the game in general.  See the <a href=http://en.wikipedia.org/wiki/Twenty-eight_(card_game) > Wikipedia page </a>  for general information about the game.
+    
+
+<h2><a name=Object></a>Object of the game</h2>
+
+Twenty-Eight is played as a series of games where each game is scored individually and running score for the series is also kept as cumulative "base" points.
+Object of each game is to win by making your team's contract or defeating the other team's contract to earn base points. You get extra base point for making or defeating  <em>Honors</em>  contracts  - contracts of 20 trick points and above. Players put one card at at time to current trick (set of six cards - one per player) and the winner's team will earn all points for the trick. Trick points from all six tricks are totaled to tally against the contract.
+
+<h2><a name=Deck></a>Deck</h2>
+
+<p>A deck consisting of 36 cards from the standard 52 card pack is used for the game. The cards: J, 9, A, 10, K, Q, 8, 7, 6 in each of the four suits - spades, clubs, hearts and diamonds are used. </p>
+
+<h3>Ranking and Values of the Cards</h3>
+
+<p>The ranking of the cards and their values are same in all suits including 
+ trump suit. Cards of trump suit gets their power only after trump is opened
+ during the play. From that instance, they will rank above other suits. Among
+ cards of trump suit, the normal ranking applies. </p>
+
+
+<table class="table table-bordered table-striped text-center">
+
+<tr >
+<th class="text-center"> Card  </th>
+<th class="text-center"> Rank  </th>
+<th class="text-center"> Value </th></tr>
+
+
+<tr>
+<td> Jack</td>
+<td> 1</td>
+<td >3</td></tr>
+
+<tr>
+<td> Nine</td>
+<td> 2</td>
+<td >2</td></tr>
+
+<tr>
+<td> Ace</td>
+<td> 3</td>
+<td >1</td></tr>
+
+
+<tr>
+<td> Ten</td>
+<td> 4</td>
+<td >1</td></tr>
+
+<tr>
+<td> King</td>
+<td> 5</td>
+<td >0</td></tr>
+
+<tr>
+<td> Queen</td>
+<td> 6</td>
+<td >0</td></tr>
+
+<tr>
+<td> Eight</td>
+<td> 7</td>
+<td >0</td></tr>
+
+<tr>
+<td> Seven</td>
+<td> 8</td>
+<td >0</td></tr>
+
+<tr>
+<td> Six</td>
+<td> 9</td>
+<td >0</td></tr>
+
+</table>
+
+<p>This gives a total of 7 points in each suit totaling 28 trick points in the deck. Hence the name twenty-eight for the game. </p>
+
+<h2><a name=Deal></a>Deal &amp; Bidding</h2>
+
+
+<p>A dealer is arbitrarily chosen for the first game in a series. For subsequent 
+ games, player to the previous dealer's right becomes the new dealer. The cards are shuffled and dealt in groups of three 
+ cards by the dealer. First set of cards are dealt to player at the right side of the dealer, 
+ and then to the next player going counter-clockwise.  Once all players get their six cards, bidding starts. </p>
+
+
+<p>Player to the right of dealer (the opener for the game) makes the first bid. The
+ opener must make a bid (minimum contract is 16). The bidding order is counter-clockwise
+ starting with opener. Once a bid is made, an unbid player of the opposite  
+ team gets the next chance to bid in the order of seating going counter clockwise from the opener. The player may PASS, or make a higher bid. A player
+ can bid only once in the bidding round.</p>
+
+
+<p>A player cannot overbid his partner until all players of the opposing team has made a bid (or a PASS bid). He may overbid his partner at this time with an honors bid (bid of 20 points or above) if the current top bid in not an honors bid. </p>
+
+<p>&nbsp;</p>
+
+<p>After bidding is over, the top bid becomes the contract and player who made the top bid is referred to as the Declarer.
+ Declarer must pick a trump card at this point. The trump card is kept separate from the declarer's other cards and it remains closed (face down) until it is legally opened during play of cards. </p>
+
+<p>&nbsp;</p>
+
+<h2><a name=Play></a>Play of Cards </h2>
+
+<p>Declarer's team will try to win the game by 
+ winning as many trick-points, exceeding or at par with the contract value. 
+ The opposite team (defenders) will try to score as many points so that 
+ the declarer's &nbsp;team  cannot make the contract. </p>
+
+
+<p>The opener (player to the right of dealer) plays first card. This is
+ the lead card for the trick. A trick is complete when all players has 
+ played one card in the natural order (of their seating), going counter-clockwise
+ around the table. </p>
+
+
+<p>If a player has at least one card of the lead suit, he must follow the 
+ suit and play a card from his hand. If he does not have a card of the lead suit, he may ask for trump
+ (if the trump is not yet opened), play a trump (if trump is already open) 
+ or play (discard) any other card he chooses.</p>
+
+<p>If a Player asks for trump and has at least one trump card in his possession, he must play 
+ a trump card immediately after the trump is opened. </p>
+
+
+<p>A Trick is won by the player who played the highest ranking card of 
+ lead suit or the highest trump in the trick. The point value of a trick 
+ is the total value of all cards in it. The winner's team will get all 
+ points in that trick. </p>
+
+
+<p>The player who won the trick will lead (play the first card) for the 
+ next trick. Game ends when all cards are played. Total points made by 
+ a team is the grand total of all points made from all the tricks they 
+ won. </p>
+
+
+<p>Declarer must not lead a card from his trump suit unless he has no other 
+ cards to lead. Also, he need not open the trump when a card from the trump
+ suit is led and his only trump is still face down (not yet opened). He may play any card in his hand in this case.
+ </p>
+ <p>
+ For the last trick, if the trump is still face down, Declarer should open the trump and play it.</p>
+
+
+<p>Also note that a card has power of trump only after trump is opened. 
+ If a card from trump suit is played to a trick before the trump was opened, 
+ it is not considered as a trump card for deciding the winner of that trick.</p>
+
+
+
+<p>If the declarer's team has won enough points for the contract, the outcome 
+ is referred to as a <em>Won Contract</em>, otherwise it is referred
+ to as a <em>Lost Contract</em>. Base points are awarded based on the
+ outcome of the game and scoring rules. </p>
+
+
+<h3><a name=Base-Exchange></a>Base Award rules</h3>
+
+<p> In a <em>Winning Contract</em> (Declarer won), winning team gets one base point
+ or two points for Honors bid.</p>
+
+<p>In a <em>Loosing Contract</em> (Declarer lost), winning team gets two base points
+ or three base points for Honors bid.</p>
+
+<h4>Slam Bonus </h4>
+
+<p>
+For a NON HONOURS contract, if the declarer's team wins all six tricks, an additional base point is awarded as bonus, making the total to 2 instead of the usual 1. Similarly, if the defending team wins all tricks, they get an additional base point making the total to 3.
+</p>
+<p>
+This is similar to COT feature of the traditional game , without explicitly calling it out.
+</p>
+
+<h2><a name=Tips></a>Tips & Tricks </h2>
+
+<h4>Quick Play </h4>
+
+<p>Any time during the play of cards, you can quickly end the current game by pressing the <i class="demo-icon icon-to-end-alt">&#xe808;</i> button or swiping table from left to right. This is like dropping your hand in traditional game, but in this case the app will automatically play your hand till end and show the end result immediately.
+</p>
+
+<h4>Quick (auto) Bid </h4>
+
+<p> During bidding, you can quickly end the bid (auto bid all unbid hands) by pressing the <i class="demo-icon icon-fast-fw">&#xe805;</i> button or swiping table from left to right. Trump will be set automatically by this action.
+
+</p>
+
+<h4>Quick Deal </h4>
+
+<p>If deal animations are making you impatient or slowing you down, you can quickly finish a deal by swiping the hand area or table while deal is in progress.
+</p>
+
+<h4>Rearrange Cards in Hand </h4>
+
+<p> You can change card order in your hand by swiping the hand area to left or to right to shift cards in the respective direction.
+</p>
+
+
+
+</div> <!-- container -->
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>

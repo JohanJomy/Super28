@@ -1,0 +1,2 @@
+s = 'Oops, kangaroo'
+print(s.index('o'))
